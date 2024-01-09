@@ -1,0 +1,11 @@
+.contenedor-tareas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkblue;
+    border-radius: 2em;
+    width: 40em;
+    min-height: 20em;
+    color: aliceblue;
+    padding: 2em;
+}

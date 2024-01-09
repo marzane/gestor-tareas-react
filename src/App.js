@@ -1,5 +1,6 @@
 import './App.css';
 import logoFreeCodeCamp from "./img/freeCodeCamp.svg";
+import GestorTareas from "./components/GestorTareas";
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
           src={logoFreeCodeCamp}
           alt='logo-freecodecamp' />
       </div>
-
+      <GestorTareas />
     </div>
   );
 }

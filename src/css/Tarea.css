@@ -1,0 +1,29 @@
+.tarea-contenedor{
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2em;
+    color: white;
+    background-color: green;
+    font-size: 1em;
+}
+
+.tarea-texto{
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+.tarea-icono{
+    border-radius: 100%;
+    background-color: blueviolet;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
