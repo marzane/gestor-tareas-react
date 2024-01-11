@@ -33,3 +33,7 @@
     text-decoration: line-through;
     background-color: rgb(0, 90, 63);
 }
+
+.tarea-texto{
+    width: 100%;
+}
