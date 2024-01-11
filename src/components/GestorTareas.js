@@ -1,12 +1,12 @@
 import React from "react";
 import "../css/GestorTareas.css";
-import Tarea from "./Tarea";
+import ListaTareas from "./ListaTareas";
 
 function GestorTareas (){
     return (
         <div className="contenedor-tareas">
             <h1>Mis tareas</h1>
-            <Tarea texto="njnnjnnnjjnjnjnjnjnjnjnjnjjn"/>
+            <ListaTareas />
         </div>
     );
 }

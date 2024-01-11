@@ -2,13 +2,16 @@ import React from "react";
 import "../css/Tarea.css";
 import { RxCrossCircled } from "react-icons/rx";
 
-function Tarea({ texto }) {
+function Tarea({ id, texto, completada, completarTarea, eliminarTarea }) {
     return (
-        <div className="tarea-contenedor">
-            <div className="tarea-texto">
+        <div className={`tarea-contenedor ${completada ? "tarea-completada" : ""}`}
+            id={id}>
+            <div className="tarea-texto"
+                onClick={() => completarTarea(id)}>
                 {texto}
             </div>
-            <div className="tarea-icono">
+            <div className="tarea-icono"
+                onClick={() => eliminarTarea(id)}>
                 <RxCrossCircled />
             </div>
         </div>
